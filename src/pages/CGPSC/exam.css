@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .content {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+  }
+  
